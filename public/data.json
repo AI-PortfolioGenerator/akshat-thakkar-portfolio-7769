@@ -1,7 +1,7 @@
 {
   "personalInfo": {
     "name": "Akshat Thakkar",
-    "title": "Software Developer | ML & Data Analyst | Full Stack Developer",
+    "title": "Software Developer | ML, Data Analyst | Full Stack Developer",
     "location": "Ahmedabad, Gujarat, India",
     "email": "thakkarakshat5428@gmail.com",
     "phone": "+91 9054498642",
@@ -17,12 +17,12 @@
     "hasContact": true
   },
   "colors": {
-    "primary": "#2962FF",
-    "secondary": "#FF9800",
-    "accent1": "#8BC34A",
-    "accent2": "#E91E63",
-    "accent3": "#00BCD4",
-    "accent4": "#FFC107"
+    "primary": "#007bff",
+    "secondary": "#6c757d",
+    "accent1": "#28a745",
+    "accent2": "#dc3545",
+    "accent3": "#ffc107",
+    "accent4": "#17a2b8"
   },
   "about": {
     "title": "About Me",
@@ -31,49 +31,48 @@
       {
         "question": "What are my key skills?",
         "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools like Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
-        "color": "#2962FF",
+        "color": "#007bff",
         "icon": 0
       },
       {
-        "question": "What's my experience?",
-        "answer": "I've worked as a Full Stack Developer Intern and Data Analyst Intern at Grownited Private Limited, where I developed web applications, analyzed large datasets, and created interactive dashboards.",
-        "color": "#FF9800",
+        "question": "What kind of projects have I worked on?",
+        "answer": "I've developed a state-city-wise news portal, analyzed Lok Sabha data, built a fake news detection system, and created an e-waste facility locator, among other projects.",
+        "color": "#28a745",
         "icon": 1
       },
       {
-        "question": "What projects have I worked on?",
-        "answer": "My projects include Fake News Detection using Machine Learning, E-Waste Facility Locator, and a CRUD Application, showcasing my skills in various technologies and domains.",
-        "color": "#8BC34A",
+        "question": "What is my experience?",
+        "answer": "I have experience as a Full Stack Developer Intern and Data Analyst Intern at Grownited Private Limited.",
+        "color": "#dc3545",
         "icon": 2
       }
     ]
   },
   "skills": {
-    "technical": [
+    "languages": [
       "Java",
       "Python",
       "SQL",
       "C",
       "HTML",
       "CSS",
-      "JavaScript",
+      "JavaScript"
+    ],
+    "frameworks": [
       "React.js",
       "FastAPI"
     ],
-    "dataAnalysis": [
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Power BI",
-      "Tableau"
+    "databases": [
+      "MySQL",
+      "MongoDB"
     ],
-    "other": [
+    "tools": [
       "Git",
       "Google Colab",
       "VS Code",
       "Eclipse",
-      "Machine Learning",
-      "Data Visualization"
+      "Tableau",
+      "Power BI"
     ]
   },
   "workExperience": {
@@ -92,7 +91,7 @@
           "Integrated Cloudinary for image uploads and added email alerts (signup, approval, reset).",
           "Gained hands-on experience with REST APIs, React components, and FastAPI routing."
         ],
-        "color": "#2962FF",
+        "color": "#007bff",
         "tech": [
           "FastAPI",
           "ReactJS",
@@ -112,7 +111,7 @@
           "Utilized Python (Pandas, Matplotlib, Seaborn) for data preprocessing and visual exploration.",
           "Created interactive Power BI dashboards to present findings."
         ],
-        "color": "#FF9800",
+        "color": "#28a745",
         "tech": [
           "Python",
           "Pandas",
@@ -125,7 +124,7 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "A showcase of my technical skills and creative problem-solving abilities",
+    "subtitle": "A showcase of my latest projects",
     "items": [
       {
         "id": 1,
@@ -137,8 +136,8 @@
           "TF-IDF",
           "Gradio"
         ],
-        "github": "#",
-        "demo": "#"
+        "iconType": "rocket",
+        "color": "#dc3545"
       },
       {
         "id": 2,
@@ -148,8 +147,8 @@
           "ReactJS",
           "Google Maps"
         ],
-        "github": "#",
-        "demo": "#"
+        "iconType": "mapPin",
+        "color": "#ffc107"
       },
       {
         "id": 3,
@@ -158,11 +157,10 @@
         "technologies": [
           "Java",
           "JSP",
-          "MySQL",
-          "JDBC"
+          "MySQL"
         ],
-        "github": "#",
-        "demo": "#"
+        "iconType": "database",
+        "color": "#17a2b8"
       },
       {
         "id": 4,
@@ -171,23 +169,20 @@
         "technologies": [
           "FastAPI",
           "ReactJS",
-          "MongoDB",
-          "Cloudinary"
+          "MongoDB"
         ],
-        "github": "#",
-        "demo": "#"
+        "iconType": "news",
+        "color": "#007bff"
       }
     ]
   },
   "contact": {
     "title": "Contact Me",
-    "subtitle": "Let's connect and discuss your project!",
-    "info": {
-      "email": "thakkarakshat5428@gmail.com",
-      "phone": "+91 9054498642",
-      "linkedin": "https://linkedin.com/in/akshatkumar-thakkar",
-      "github": "https://github.com/Akki5428"
-    }
+    "subtitle": "Let's connect!",
+    "email": "thakkarakshat5428@gmail.com",
+    "phone": "+91 9054498642",
+    "github": "https://github.com/Akki5428",
+    "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
   },
   "certifications": [
     {
