@@ -6,7 +6,7 @@
     "email": "thakkarakshat5428@gmail.com",
     "phone": "+91 9054498642",
     "github": "https://github.com/Akki5428",
-    "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
+    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
   },
   "siteConfig": {
     "hasHero": true,
@@ -30,19 +30,19 @@
     "faqs": [
       {
         "question": "What are my key skills?",
-        "answer": "I possess a strong foundation in Java, Python, SQL, and full-stack technologies (ReactJS, FastAPI). My expertise extends to data analysis using tools like Power BI and machine learning using scikit-learn.",
+        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools like Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
         "color": "#007bff",
         "icon": 0
       },
       {
-        "question": "What kind of projects have I worked on?",
-        "answer": "I've developed a state-wise news portal, analyzed Lok Sabha election data, built a fake news detection system, and created an e-waste facility locator. My projects demonstrate my skills in various domains, including web development, data analysis, and machine learning.",
+        "question": "What's my experience?",
+        "answer": "I've worked as a Full Stack Developer Intern and Data Analyst Intern at Grownited Private Limited, where I developed web applications and performed data analysis using various tools and techniques.",
         "color": "#28a745",
         "icon": 1
       },
       {
-        "question": "What are my professional experiences?",
-        "answer": "I've completed internships as a Full Stack Developer and Data Analyst at Grownited Private Limited, where I gained practical experience in building web applications and analyzing large datasets.",
+        "question": "What projects have I worked on?",
+        "answer": "My projects include StateBuzz (FARM stack), Lok Sabha data analysis (Power BI), Fake News Detection (ML pipeline), E-Waste Facility Locator (ReactJS), and a CRUD application (Java, JSP, MySQL).",
         "color": "#dc3545",
         "icon": 2
       }
@@ -80,7 +80,6 @@
     "subtitle": "My professional journey and the skills I've acquired along the way",
     "experiences": [
       {
-        "id": 0,
         "role": "Full Stack Developer Intern",
         "company": "Grownited Private Limited",
         "location": "Ahmedabad, Gujarat",
@@ -100,7 +99,6 @@
         ]
       },
       {
-        "id": 1,
         "role": "Data Analyst Intern",
         "company": "Grownited Private Limited",
         "location": "Ahmedabad, Gujarat",
@@ -111,7 +109,7 @@
           "Utilized Python (Pandas, Matplotlib, Seaborn) for data preprocessing and visual exploration.",
           "Created interactive Power BI dashboards to present findings."
         ],
-        "color": "#dc3545",
+        "color": "#28a745",
         "tech": [
           "Python",
           "Pandas",
@@ -127,66 +125,71 @@
     "subtitle": "A showcase of my technical skills and creative problem-solving abilities",
     "items": [
       {
-        "id": 1,
-        "title": "Fake News Detection using Machine Learning",
-        "description": "Built an ML pipeline using TF-IDF vectorization and Logistic Regression to classify news as fake or real.",
+        "title": "StateBuzz",
+        "description": "A state-city-wise news portal built using the FARM stack (FastAPI, ReactJS, MongoDB).",
+        "technologies": [
+          "FastAPI",
+          "ReactJS",
+          "MongoDB"
+        ],
+        "iconType": "globe",
+        "color": "#007bff"
+      },
+      {
+        "title": "Lok Sabha Data Analysis",
+        "description": "Analysis of Lok Sabha data (2004-2024) using Python and Power BI to study voting trends.",
+        "technologies": [
+          "Python",
+          "Pandas",
+          "Matplotlib",
+          "Seaborn",
+          "Power BI"
+        ],
+        "iconType": "chart-bar",
+        "color": "#28a745"
+      },
+      {
+        "title": "Fake News Detection",
+        "description": "Machine learning pipeline for fake news detection using Python, scikit-learn, TF-IDF, and Gradio.",
         "technologies": [
           "Python",
           "scikit-learn",
           "TF-IDF",
           "Gradio"
         ],
-        "iconType": "brain",
-        "color": "#28a745"
+        "iconType": "robot",
+        "color": "#dc3545"
       },
       {
-        "id": 2,
         "title": "E-Waste Facility Locator",
-        "description": "Developed an application using React.js to help users find e-waste disposal facilities.",
+        "description": "ReactJS application to help users find e-waste disposal facilities with Google Maps integration.",
         "technologies": [
           "ReactJS",
           "Google Maps"
         ],
-        "iconType": "recycle",
+        "iconType": "map-marker-alt",
         "color": "#ffc107"
       },
       {
-        "id": 3,
         "title": "CRUD Application",
-        "description": "Built a secure CRUD system for managing student records with registration and session-based logout.",
+        "description": "Secure CRUD system for managing student records using Java, JSP, and MySQL.",
         "technologies": [
           "Java",
           "JSP",
-          "MySQL",
-          "JDBC"
+          "MySQL"
         ],
         "iconType": "database",
         "color": "#17a2b8"
-      },
-      {
-        "id": 4,
-        "title": "StateBuzz",
-        "description": "A state-city-wise news portal built using the FARM stack (FastAPI, ReactJS, MongoDB).",
-        "technologies": [
-          "FastAPI",
-          "ReactJS",
-          "MongoDB",
-          "Cloudinary"
-        ],
-        "iconType": "globe",
-        "color": "#007bff"
       }
     ]
   },
   "contact": {
-    "title": "Get in Touch",
+    "title": "Contact Me",
     "subtitle": "Let's connect and discuss your project!",
-    "info": {
-      "email": "thakkarakshat5428@gmail.com",
-      "phone": "+91 9054498642",
-      "linkedin": "https://linkedin.com/in/akshatkumar-thakkar",
-      "github": "https://github.com/Akki5428"
-    }
+    "email": "thakkarakshat5428@gmail.com",
+    "phone": "+91 9054498642",
+    "github": "https://github.com/Akki5428",
+    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
   },
   "certifications": [
     {
