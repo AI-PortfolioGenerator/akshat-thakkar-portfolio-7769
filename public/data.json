@@ -26,23 +26,23 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "A passionate and skilled software developer with expertise in machine learning, data analysis, and full-stack development.",
+    "subtitle": "A passionate and skilled software developer with expertise in Machine Learning, Data Analysis, and Full Stack Development.",
     "faqs": [
       {
         "question": "What are my key skills?",
-        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools like Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
+        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
         "color": "#007bff",
         "icon": 0
       },
       {
-        "question": "What's my experience?",
-        "answer": "I've worked as a Full Stack Developer Intern and Data Analyst Intern at Grownited Private Limited, where I developed web applications and performed data analysis using various tools and techniques.",
+        "question": "What kind of projects have I worked on?",
+        "answer": "I've built full-stack applications, performed data analysis on large datasets, and developed machine learning models for various tasks. My projects showcase my ability to handle diverse challenges and deliver high-quality solutions.",
         "color": "#28a745",
         "icon": 1
       },
       {
-        "question": "What projects have I worked on?",
-        "answer": "My projects include StateBuzz (FARM stack), Lok Sabha data analysis (Power BI), Fake News Detection (ML pipeline), E-Waste Facility Locator (ReactJS), and a CRUD application (Java, JSP, MySQL).",
+        "question": "What is my experience?",
+        "answer": "I've gained valuable experience as a Full Stack Developer and Data Analyst Intern at Grownited Private Limited, where I worked on real-world projects and collaborated with experienced professionals.",
         "color": "#dc3545",
         "icon": 2
       }
@@ -122,52 +122,28 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "A showcase of my technical skills and creative problem-solving abilities",
+    "subtitle": "A showcase of my latest projects",
     "items": [
       {
-        "title": "StateBuzz",
-        "description": "A state-city-wise news portal built using the FARM stack (FastAPI, ReactJS, MongoDB).",
-        "technologies": [
-          "FastAPI",
-          "ReactJS",
-          "MongoDB"
-        ],
-        "iconType": "globe",
-        "color": "#007bff"
-      },
-      {
-        "title": "Lok Sabha Data Analysis",
-        "description": "Analysis of Lok Sabha data (2004-2024) using Python and Power BI to study voting trends.",
-        "technologies": [
-          "Python",
-          "Pandas",
-          "Matplotlib",
-          "Seaborn",
-          "Power BI"
-        ],
-        "iconType": "chart-bar",
-        "color": "#28a745"
-      },
-      {
-        "title": "Fake News Detection",
-        "description": "Machine learning pipeline for fake news detection using Python, scikit-learn, TF-IDF, and Gradio.",
+        "title": "Fake News Detection using Machine Learning",
+        "description": "Built an ML pipeline to classify news as fake or real.",
         "technologies": [
           "Python",
           "scikit-learn",
           "TF-IDF",
           "Gradio"
         ],
-        "iconType": "robot",
+        "iconType": "rocket",
         "color": "#dc3545"
       },
       {
         "title": "E-Waste Facility Locator",
-        "description": "ReactJS application to help users find e-waste disposal facilities with Google Maps integration.",
+        "description": "ReactJS application to help users find e-waste disposal facilities.",
         "technologies": [
           "ReactJS",
           "Google Maps"
         ],
-        "iconType": "map-marker-alt",
+        "iconType": "mapMarker",
         "color": "#ffc107"
       },
       {
@@ -183,14 +159,6 @@
       }
     ]
   },
-  "contact": {
-    "title": "Contact Me",
-    "subtitle": "Let's connect and discuss your project!",
-    "email": "thakkarakshat5428@gmail.com",
-    "phone": "+91 9054498642",
-    "github": "https://github.com/Akki5428",
-    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
-  },
   "certifications": [
     {
       "name": "Oracle Cloud Infrastructure 2024 Generative AI Professional",
@@ -200,5 +168,13 @@
       "name": "Core Java, Python",
       "issuer": "Royal Technosoft - Oracle University"
     }
-  ]
+  ],
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Let's connect!",
+    "email": "thakkarakshat5428@gmail.com",
+    "phone": "+91 9054498642",
+    "github": "https://github.com/Akki5428",
+    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
+  }
 }
