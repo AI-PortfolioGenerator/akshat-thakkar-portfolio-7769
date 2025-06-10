@@ -1,7 +1,7 @@
 {
   "personalInfo": {
     "name": "Akshat Thakkar",
-    "title": "Software Developer | ML, Data Analyst | Full Stack Developer",
+    "title": "Software Developer | ML & Data Analyst | Full Stack Developer",
     "location": "Ahmedabad, Gujarat, India",
     "email": "thakkarakshat5428@gmail.com",
     "phone": "+91 9054498642",
@@ -30,19 +30,19 @@
     "faqs": [
       {
         "question": "What are my key skills?",
-        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools like Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
+        "answer": "I possess a strong foundation in Java, Python, SQL, and full-stack technologies (ReactJS, FastAPI). My expertise extends to data analysis using tools like Power BI and machine learning using scikit-learn.",
         "color": "#007bff",
         "icon": 0
       },
       {
         "question": "What kind of projects have I worked on?",
-        "answer": "I've developed a state-city-wise news portal, analyzed Lok Sabha data, built a fake news detection system, and created an e-waste facility locator, among other projects.",
+        "answer": "I've developed a state-wise news portal, analyzed Lok Sabha election data, built a fake news detection system, and created an e-waste facility locator. My projects demonstrate my skills in various domains, including web development, data analysis, and machine learning.",
         "color": "#28a745",
         "icon": 1
       },
       {
-        "question": "What is my experience?",
-        "answer": "I have experience as a Full Stack Developer Intern and Data Analyst Intern at Grownited Private Limited.",
+        "question": "What are my professional experiences?",
+        "answer": "I've completed internships as a Full Stack Developer and Data Analyst at Grownited Private Limited, where I gained practical experience in building web applications and analyzing large datasets.",
         "color": "#dc3545",
         "icon": 2
       }
@@ -111,7 +111,7 @@
           "Utilized Python (Pandas, Matplotlib, Seaborn) for data preprocessing and visual exploration.",
           "Created interactive Power BI dashboards to present findings."
         ],
-        "color": "#28a745",
+        "color": "#dc3545",
         "tech": [
           "Python",
           "Pandas",
@@ -124,20 +124,20 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "A showcase of my latest projects",
+    "subtitle": "A showcase of my technical skills and creative problem-solving abilities",
     "items": [
       {
         "id": 1,
         "title": "Fake News Detection using Machine Learning",
-        "description": "Built an ML pipeline to classify news as fake or real using TF-IDF vectorization and Logistic Regression.",
+        "description": "Built an ML pipeline using TF-IDF vectorization and Logistic Regression to classify news as fake or real.",
         "technologies": [
           "Python",
           "scikit-learn",
           "TF-IDF",
           "Gradio"
         ],
-        "iconType": "rocket",
-        "color": "#dc3545"
+        "iconType": "brain",
+        "color": "#28a745"
       },
       {
         "id": 2,
@@ -147,17 +147,18 @@
           "ReactJS",
           "Google Maps"
         ],
-        "iconType": "mapPin",
+        "iconType": "recycle",
         "color": "#ffc107"
       },
       {
         "id": 3,
         "title": "CRUD Application",
-        "description": "Built a secure CRUD system for managing student records using Java, JSP, and MySQL.",
+        "description": "Built a secure CRUD system for managing student records with registration and session-based logout.",
         "technologies": [
           "Java",
           "JSP",
-          "MySQL"
+          "MySQL",
+          "JDBC"
         ],
         "iconType": "database",
         "color": "#17a2b8"
@@ -169,20 +170,23 @@
         "technologies": [
           "FastAPI",
           "ReactJS",
-          "MongoDB"
+          "MongoDB",
+          "Cloudinary"
         ],
-        "iconType": "news",
+        "iconType": "globe",
         "color": "#007bff"
       }
     ]
   },
   "contact": {
-    "title": "Contact Me",
-    "subtitle": "Let's connect!",
-    "email": "thakkarakshat5428@gmail.com",
-    "phone": "+91 9054498642",
-    "github": "https://github.com/Akki5428",
-    "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
+    "title": "Get in Touch",
+    "subtitle": "Let's connect and discuss your project!",
+    "info": {
+      "email": "thakkarakshat5428@gmail.com",
+      "phone": "+91 9054498642",
+      "linkedin": "https://linkedin.com/in/akshatkumar-thakkar",
+      "github": "https://github.com/Akki5428"
+    }
   },
   "certifications": [
     {
