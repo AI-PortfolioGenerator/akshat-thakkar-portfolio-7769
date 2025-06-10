@@ -1,0 +1,339 @@
+{
+  "personalInfo": {
+    "name": "Software Developer",
+    "title": "UI/UX Designer",
+    "location": "United States",
+    "email": "thakkarakshat5428@gmail.com",
+    "github": "",
+    "linkedin": "",
+    "twitter": "",
+    "resume": ""
+  },
+  "siteConfig": {
+    "hasHero": true,
+    "hasAbout": true,
+    "hasSkills": true,
+    "hasProjects": true,
+    "hasWorkEx": true,
+    "hasContact": true
+  },
+  "colors": {
+    "primary": "blue",
+    "secondary": "purple",
+    "accent1": "pink",
+    "accent2": "yellow",
+    "accent3": "green",
+    "accent4": "orange"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Discover more about my background, skills, and what drives me as a developer",
+    "faqs": [
+      {
+        "question": "Who am I as a developer?",
+        "answer": "I'm a passionate fresher focused on building scalable, user-centric web solutions with a keen eye for design and functionality. My approach combines technical expertise with creative problem-solving.",
+        "color": "pink",
+        "icon": 0
+      },
+      {
+        "question": "What technical skills do I bring?",
+        "answer": "I have hands-on experience with React, FastAPI, MongoDB, Python, Excel, and Power BI. My technical toolkit enables me to develop full-stack solutions with modern frameworks and data-driven approaches.",
+        "color": "yellow",
+        "icon": 1
+      },
+      {
+        "question": "What's my professional experience?",
+        "answer": "I've worked as a Full Stack Developer Intern at Grownited Pvt. Ltd. (Jan-Apr 2025) where I built Founders Nexus—a platform connecting startup founders with mentors and investors—using FastAPI and modern frontend frameworks. I also worked as a Data Analyst Intern (June-July 2024) where I extracted data from PDFs, analyzed sales trends with Power BI, and employed statistical analysis using Python libraries.",
+        "color": "purple",
+        "icon": 2
+      },
+      {
+        "question": "How do I approach new challenges?",
+        "answer": "As a quick learner and team player, I'm always eager to explore AI/ML and emerging technologies. I thrive in collaborative environments and adapt rapidly to new tools and frameworks.",
+        "color": "orange",
+        "icon": 3
+      },
+      {
+        "question": "What drives me professionally?",
+        "answer": "I'm driven by curiosity, empathy, and a desire to create real-world impact. I believe technology should solve genuine problems and enhance human experiences in meaningful ways.",
+        "color": "green",
+        "icon": 4
+      },
+      {
+        "question": "How do I demonstrate my abilities?",
+        "answer": "My strong problem-solving skills shine through academic projects and hackathons. I've consistently delivered innovative solutions under pressure and transformed complex requirements into elegant implementations.",
+        "color": "green",
+        "icon": 5
+      }
+    ]
+  },
+  "skills": {
+    "technical": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "React",
+      "SQL",
+      "MongoDB"
+    ],
+    "dataAnalysis": [
+      "Data Analysis",
+      "Reporting",
+      "Visualization"
+    ],
+    "other": [
+      "Problem Solving",
+      "Team Collaboration",
+      "Communication"
+    ]
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "subtitle": "My professional journey and the skills I've acquired along the way",
+    "experiences": [
+      {
+        "id": 0,
+        "role": "Full Stack Developer Intern",
+        "company": "Grownited Pvt. Ltd.",
+        "location": "Ahmedabad, Gujarat",
+        "duration": "Jan 2025 – Apr 2025",
+        "url": "https://foundersnexus.netlify.app/",
+        "description": [
+          "Built a full-stack web application using FastAPI for backend services combined with modern frontend frameworks.",
+          "Contributed to Founders Nexus—a platform connecting startup founders with mentors, investors, and resources.",
+          "Maintenance of repos and deployment: Frontend Repo: foundersNexusFrontend, Backend Repo: foundersNexusBackend"
+        ],
+        "color": "blue",
+        "tech": [
+          "FastAPI",
+          "React",
+          "MongoDB",
+          "NextJS"
+        ],
+        "iconType": "codeBracket"
+      },
+      {
+        "id": 1,
+        "role": "Data Analyst Intern",
+        "company": "Grownited Pvt. Ltd.",
+        "location": "Ahmedabad, Gujarat",
+        "duration": "June 2024 – July 2024",
+        "description": [
+          "Extracted and processed data from PDF orders using advanced Python scripting.",
+          "Analyzed sales trends, customer behavior, and product performance with Power BI and SQL.",
+          "Employed hypothesis testing and statistical analysis in Google Colab using Pandas and NumPy.",
+          "Streamlined workflows with JIRA and presented findings via a professionally designed React/NextJS website."
+        ],
+        "color": "purple",
+        "tech": [
+          "Python",
+          "Power BI",
+          "SQL",
+          "Pandas",
+          "NumPy",
+          "JIRA",
+          "React/NextJS"
+        ],
+        "iconType": "chartBar"
+      }
+    ],
+    "svgCollection": [
+      {
+        "iconType": "codeBracket",
+        "color": "primary",
+        "top": 15,
+        "left": 5,
+        "delay": 0
+      },
+      {
+        "iconType": "server",
+        "color": "accent3",
+        "top": 75,
+        "left": 80,
+        "delay": 1.2
+      },
+      {
+        "iconType": "commandLine",
+        "color": "secondary",
+        "top": 45,
+        "left": 92,
+        "delay": 0.5
+      },
+      {
+        "iconType": "circleStack",
+        "color": "accent2",
+        "top": 85,
+        "left": 15,
+        "delay": 2.1
+      },
+      {
+        "iconType": "cloud",
+        "color": "accent1",
+        "top": 10,
+        "left": 85,
+        "delay": 1.7
+      },
+      {
+        "iconType": "binary",
+        "color": "gray",
+        "top": 30,
+        "left": 70,
+        "delay": 0.8
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Explore my latest projects showcasing my technical skills and creative problem-solving abilities",
+    "tags": [
+      "All",
+      "Resume Projects",
+      "Vibe Code",
+      "Web Development",
+      "Data Analysis",
+      "Full Stack"
+    ],
+    "items": [
+      {
+        "id": 100,
+        "title": "Personal Portfolio Website",
+        "description": "A modern, responsive personal portfolio website built with React",
+        "longDescription": "Designed and developed a personal portfolio website to showcase projects and skills using modern web technologies.",
+        "tags": [
+          "Web Development",
+          "React",
+          "Portfolio"
+        ],
+        "features": [
+          "Responsive design for all devices",
+          "Dynamic content loading",
+          "Contact form with validation",
+          "Dark/light mode toggle"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "Java",
+          "React",
+          "SQL"
+        ],
+        "github": "",
+        "demo": "",
+        "iconType": "codeBracket",
+        "color": "from-blue-400 to-blue-600",
+        "category": "personal"
+      }
+    ],
+    "svgCollection": [
+      {
+        "iconType": "codeBracket",
+        "color": "primary",
+        "top": 15,
+        "left": 5,
+        "delay": 0
+      },
+      {
+        "iconType": "cubeTransparent",
+        "color": "accent1",
+        "top": 75,
+        "left": 80,
+        "delay": 1.2
+      },
+      {
+        "iconType": "cpuChip",
+        "color": "accent3",
+        "top": 45,
+        "left": 92,
+        "delay": 0.5
+      },
+      {
+        "iconType": "commandLine",
+        "color": "accent2",
+        "top": 85,
+        "left": 15,
+        "delay": 2.1
+      },
+      {
+        "iconType": "chartBar",
+        "color": "secondary",
+        "top": 10,
+        "left": 85,
+        "delay": 1.7
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or want to collaborate? Drop me a message, and I'll get back to you soon!",
+    "info": {
+      "sectionTitle": "Contact Information",
+      "email": {
+        "label": "Email",
+        "value": "thakkarakshat5428@gmail.com",
+        "color": "blue"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "Available on request",
+        "color": "green"
+      },
+      "location": {
+        "label": "Location",
+        "value": "United States",
+        "color": "purple"
+      },
+      "socialMedia": {
+        "title": "Connect with me on social media:"
+      }
+    },
+    "form": {
+      "sectionTitle": "Send a Message",
+      "submitButtonText": "Send Message",
+      "loadingText": "Sending..."
+    },
+    "svgCollection": [
+      {
+        "iconType": "envelope",
+        "color": "primary",
+        "top": 15,
+        "left": 5,
+        "delay": 0
+      },
+      {
+        "iconType": "server",
+        "color": "accent3",
+        "top": 75,
+        "left": 80,
+        "delay": 1.2
+      },
+      {
+        "iconType": "commandLine",
+        "color": "secondary",
+        "top": 45,
+        "left": 92,
+        "delay": 0.5
+      },
+      {
+        "iconType": "codeBracket",
+        "color": "accent2",
+        "top": 85,
+        "left": 15,
+        "delay": 2.1
+      },
+      {
+        "iconType": "link",
+        "color": "accent1",
+        "top": 10,
+        "left": 85,
+        "delay": 1.7
+      },
+      {
+        "iconType": "binary",
+        "color": "gray",
+        "top": 30,
+        "left": 70,
+        "delay": 0.8
+      }
+    ]
+  }
+}

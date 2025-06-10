@@ -1,0 +1,202 @@
+{
+  "personalInfo": {
+    "name": "Akshat Thakkar",
+    "title": "Software Developer | ML & Data Analyst | Full Stack Developer",
+    "location": "Ahmedabad, Gujarat, India",
+    "email": "thakkarakshat5428@gmail.com",
+    "phone": "+91 9054498642",
+    "github": "https://github.com/Akki5428",
+    "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
+  },
+  "siteConfig": {
+    "hasHero": true,
+    "hasAbout": true,
+    "hasSkills": true,
+    "hasProjects": true,
+    "hasWorkEx": true,
+    "hasContact": true
+  },
+  "colors": {
+    "primary": "#2962FF",
+    "secondary": "#FF9800",
+    "accent1": "#8BC34A",
+    "accent2": "#E91E63",
+    "accent3": "#00BCD4",
+    "accent4": "#FFC107"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A passionate and skilled software developer with expertise in machine learning, data analysis, and full-stack development.",
+    "faqs": [
+      {
+        "question": "What are my key skills?",
+        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools like Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
+        "color": "#2962FF",
+        "icon": 0
+      },
+      {
+        "question": "What's my experience?",
+        "answer": "I've worked as a Full Stack Developer Intern and Data Analyst Intern at Grownited Private Limited, where I developed web applications, analyzed large datasets, and created interactive dashboards.",
+        "color": "#FF9800",
+        "icon": 1
+      },
+      {
+        "question": "What projects have I worked on?",
+        "answer": "My projects include Fake News Detection using Machine Learning, E-Waste Facility Locator, and a CRUD Application, showcasing my skills in various technologies and domains.",
+        "color": "#8BC34A",
+        "icon": 2
+      }
+    ]
+  },
+  "skills": {
+    "technical": [
+      "Java",
+      "Python",
+      "SQL",
+      "C",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "FastAPI"
+    ],
+    "dataAnalysis": [
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Power BI",
+      "Tableau"
+    ],
+    "other": [
+      "Git",
+      "Google Colab",
+      "VS Code",
+      "Eclipse",
+      "Machine Learning",
+      "Data Visualization"
+    ]
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "subtitle": "My professional journey and the skills I've acquired along the way",
+    "experiences": [
+      {
+        "id": 0,
+        "role": "Full Stack Developer Intern",
+        "company": "Grownited Private Limited",
+        "location": "Ahmedabad, Gujarat",
+        "duration": "Jan 2025 - Apr 2025",
+        "description": [
+          "Developed StateBuzz, a state-city-wise news portal using the FARM stack (FastAPI, ReactJS, MongoDB).",
+          "Built modules for auth, role-based dashboards, news posting, and comments.",
+          "Integrated Cloudinary for image uploads and added email alerts (signup, approval, reset).",
+          "Gained hands-on experience with REST APIs, React components, and FastAPI routing."
+        ],
+        "color": "#2962FF",
+        "tech": [
+          "FastAPI",
+          "ReactJS",
+          "MongoDB",
+          "Cloudinary"
+        ]
+      },
+      {
+        "id": 1,
+        "role": "Data Analyst Intern",
+        "company": "Grownited Private Limited",
+        "location": "Ahmedabad, Gujarat",
+        "duration": "June 2024 - July 2024",
+        "description": [
+          "Analyzed Lok Sabha data (2004-2024) to study voting trends, turnout, and party performance.",
+          "Applied statistical methods and hypothesis testing for deeper insights.",
+          "Utilized Python (Pandas, Matplotlib, Seaborn) for data preprocessing and visual exploration.",
+          "Created interactive Power BI dashboards to present findings."
+        ],
+        "color": "#FF9800",
+        "tech": [
+          "Python",
+          "Pandas",
+          "Matplotlib",
+          "Seaborn",
+          "Power BI"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A showcase of my technical skills and creative problem-solving abilities",
+    "items": [
+      {
+        "id": 1,
+        "title": "Fake News Detection using Machine Learning",
+        "description": "Built an ML pipeline to classify news as fake or real using TF-IDF vectorization and Logistic Regression.",
+        "technologies": [
+          "Python",
+          "scikit-learn",
+          "TF-IDF",
+          "Gradio"
+        ],
+        "github": "#",
+        "demo": "#"
+      },
+      {
+        "id": 2,
+        "title": "E-Waste Facility Locator",
+        "description": "Developed an application using React.js to help users find e-waste disposal facilities.",
+        "technologies": [
+          "ReactJS",
+          "Google Maps"
+        ],
+        "github": "#",
+        "demo": "#"
+      },
+      {
+        "id": 3,
+        "title": "CRUD Application",
+        "description": "Built a secure CRUD system for managing student records using Java, JSP, and MySQL.",
+        "technologies": [
+          "Java",
+          "JSP",
+          "MySQL",
+          "JDBC"
+        ],
+        "github": "#",
+        "demo": "#"
+      },
+      {
+        "id": 4,
+        "title": "StateBuzz",
+        "description": "A state-city-wise news portal built using the FARM stack (FastAPI, ReactJS, MongoDB).",
+        "technologies": [
+          "FastAPI",
+          "ReactJS",
+          "MongoDB",
+          "Cloudinary"
+        ],
+        "github": "#",
+        "demo": "#"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Let's connect and discuss your project!",
+    "info": {
+      "email": "thakkarakshat5428@gmail.com",
+      "phone": "+91 9054498642",
+      "linkedin": "https://linkedin.com/in/akshatkumar-thakkar",
+      "github": "https://github.com/Akki5428"
+    }
+  },
+  "certifications": [
+    {
+      "name": "Oracle Cloud Infrastructure 2024 Generative AI Professional",
+      "issuer": "Oracle"
+    },
+    {
+      "name": "Core Java, Python",
+      "issuer": "Royal Technosoft - Oracle University"
+    }
+  ]
+}

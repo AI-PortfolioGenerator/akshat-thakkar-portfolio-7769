@@ -1,0 +1,9 @@
+# Configure Netlify for SPA (Single Page Application) routing
+[build]
+  publish = "dist"
+
+# Handle client-side routing by redirecting all paths to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

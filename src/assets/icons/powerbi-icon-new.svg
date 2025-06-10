@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <linearGradient id="DDuXq~lIz_TIs1~O_GF9Aa" x1="8" x2="8" y1="33.609" y2="44.766" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e6ad10"/>
+    <stop offset="1" stop-color="#c87e0e"/>
+  </linearGradient>
+  <path fill="url(#DDuXq~lIz_TIs1~O_GF9Aa)" d="M12,44H4c-0.552,0-1-0.448-1-1V27c0-0.552,0.448-1,1-1h8c0.552,0,1,0.448,1,1v16	C13,43.552,12.552,44,12,44z"/>
+  <linearGradient id="DDuXq~lIz_TIs1~O_GF9Ab" x1="24" x2="24" y1="23.569" y2="44.811" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#f6712d"/>
+    <stop offset="1" stop-color="#c45422"/>
+  </linearGradient>
+  <path fill="url(#DDuXq~lIz_TIs1~O_GF9Ab)" d="M28,44h-8c-0.552,0-1-0.448-1-1V19c0-0.552,0.448-1,1-1h8c0.552,0,1,0.448,1,1v24	C29,43.552,28.552,44,28,44z"/>
+  <linearGradient id="DDuXq~lIz_TIs1~O_GF9Ac" x1="40" x2="40" y1="4" y2="45" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#d93c31"/>
+    <stop offset="1" stop-color="#a32e27"/>
+  </linearGradient>
+  <path fill="url(#DDuXq~lIz_TIs1~O_GF9Ac)" d="M44,44h-8c-0.552,0-1-0.448-1-1V5c0-0.552,0.448-1,1-1h8c0.552,0,1,0.448,1,1v38	C45,43.552,44.552,44,44,44z"/>
+</svg>
