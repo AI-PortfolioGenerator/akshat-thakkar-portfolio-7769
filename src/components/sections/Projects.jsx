@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import ReactDOM from 'react-dom';
-import data from '../../data.json'; // Import data from data.json
 import { 
   CodeBracketIcon, 
   DocumentTextIcon,
@@ -18,25 +17,36 @@ import {
   XMarkIcon
 } from '@heroicons/react/24/outline';
 
-// Theme colors from data.json
-const colors = {
-  primary: data.colors.primary,
-  secondary: data.colors.secondary,
-  accent1: data.colors.accent1,
-  accent2: data.colors.accent2,
-  accent3: data.colors.accent3,
-  accent4: data.colors.accent4
+// Default colors as fallback
+const defaultColors = {
+  primary: 'blue',
+  secondary: 'purple',
+  accent1: 'green',
+  accent2: 'red',
+  accent3: 'yellow',
+  accent4: 'orange'
+};
+
+// Helper for GitHub Pages asset paths
+const getAssetPath = (path) => {
+  if (!path) return '';
+  
+  // If path is already a full URL, return as is
+  if (path.startsWith('http')) return path;
+  
+  // For relative paths, ensure they work with the baseUrl
+  return path.startsWith('./') ? path : `./${path}`;
 };
 
 // Helper function to get color styles dynamically
-const getColorStyle = (colorName) => {
+const getColorStyle = (colorName, colors = defaultColors) => {
   const colorMap = {
-    'primary': colors.primary,
-    'secondary': colors.secondary,
-    'accent1': colors.accent1,
-    'accent2': colors.accent2,
-    'accent3': colors.accent3,
-    'accent4': colors.accent4,
+    'primary': colors?.primary || 'blue',
+    'secondary': colors?.secondary || 'purple',
+    'accent1': colors?.accent1 || 'green',
+    'accent2': colors?.accent2 || 'red',
+    'accent3': colors?.accent3 || 'yellow',
+    'accent4': colors?.accent4 || 'orange',
     'blue': 'blue',
     'green': 'green',
     'purple': 'purple',
@@ -83,11 +93,19 @@ function ModalPortal({ children }) {
   return ReactDOM.createPortal(children, elRef.current);
 }
 
-export default function Projects() {
+export default function Projects({ projects: projectsFromProps, colors: colorProps }) {
   const [activeProject, setActiveProject] = useState(null);
   const [activeTag, setActiveTag] = useState('All');
   const [isModalOpen, setIsModalOpen] = useState(false);
   const modalRef = useRef(null);
+  const [colors, setColors] = useState(defaultColors);
+  
+  // Initialize colors from props when available
+  useEffect(() => {
+    if (colorProps) {
+      setColors({ ...defaultColors, ...colorProps });
+    }
+  }, [colorProps]);
   
   const { ref, inView } = useInView({
     threshold: 0.1,
@@ -182,10 +200,16 @@ export default function Projects() {
       transition: { duration: 0.3, ease: "easeInOut" }
     }
   };
+    // Use projects from props if available, otherwise fall back to imported data
+  const projectsData = projectsFromProps || (data?.projects || { 
+    title: "My Projects", 
+    subtitle: "Check out some of my recent work", 
+    tags: ["All"],
+    items: []
+  });
   
-  // Get project data and filter tags from data.json
-  const projectsData = data.projects;
-  const tags = projectsData.tags;
+  // Extract tags from props or fallback
+  const tags = projectsData.tags || ["All"];
   
   // State to control showing more projects
   const [showAllProjects, setShowAllProjects] = useState(false);
@@ -208,12 +232,17 @@ export default function Projects() {
   const getIconComponent = (iconType) => {
     return iconComponents[iconType] || DocumentTextIcon; // Default to DocumentTextIcon if not found
   };
-  
-  // Process projects from data.json to add icon components
-  const projects = projectsData.items.map(project => ({
-    ...project,
-    icon: getIconComponent(project.iconType)
-  }));
+    // Process projects from data.json to add icon components and fix image paths
+  const projects = (projectsData.items || []).map(project => {
+    // Fix image paths for GitHub Pages compatibility
+    const processedImages = (project.images || []).map(img => getAssetPath(img));
+    
+    return {
+      ...project,
+      icon: getIconComponent(project.iconType),
+      images: processedImages
+    };
+  });
   
   // Filter projects based on selected tag or category
   const filteredProjects = activeTag === 'All'

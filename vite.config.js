@@ -13,15 +13,26 @@ export default defineConfig({
       name: 'copy-data-json',
       buildEnd: async () => {
         try {
+          // Copy from multiple possible locations to ensure we have data.json
           const srcDataPath = resolve(__dirname, 'src/data.json')
+          const publicDataPath = resolve(__dirname, 'public/data.json')
           const distDataPath = resolve(__dirname, 'dist/data.json')
           
+          // Try to copy from src first, then from public if src doesn't exist
           if (fs.existsSync(srcDataPath)) {
             await fs.copy(srcDataPath, distDataPath)
-            console.log('✅ data.json copied to dist folder during build')
+            console.log('✅ data.json copied from src to dist folder during build')
+          } else if (fs.existsSync(publicDataPath)) {
+            await fs.copy(publicDataPath, distDataPath)
+            console.log('✅ data.json copied from public to dist folder during build')
           } else {
-            console.warn('⚠️ src/data.json not found during build')
+            console.warn('⚠️ data.json not found in src or public during build')
           }
+          
+          // Ensure .nojekyll exists in dist folder (critical for GitHub Pages)
+          const distNojekyllPath = resolve(__dirname, 'dist/.nojekyll')
+          fs.writeFileSync(distNojekyllPath, '')
+          console.log('✅ .nojekyll file created in dist folder')
         } catch (err) {
           console.error('Error copying data.json:', err)
         }

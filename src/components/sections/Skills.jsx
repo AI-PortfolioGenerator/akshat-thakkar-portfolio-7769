@@ -1,27 +1,32 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CodeBracketIcon, ChartBarIcon, CubeIcon, ServerStackIcon, CpuChipIcon, AcademicCapIcon, CommandLineIcon, CloudIcon, LockClosedIcon, WrenchScrewdriverIcon } from '@heroicons/react/24/outline';
-import data from '../../data.json'; // Import data from data.json
 
-// Theme colors from data.json
-const colors = {
-  primary: data.colors.primary,
-  secondary: data.colors.secondary,
-  accent1: data.colors.accent1,
-  accent2: data.colors.accent2,
-  accent3: data.colors.accent3,
-  accent4: data.colors.accent4
+// Default colors as fallback
+const defaultColors = {
+  primary: 'blue',
+  secondary: 'purple',
+  accent1: 'green',
+  accent2: 'red',
+  accent3: 'yellow',
+  accent4: 'orange'
 };
+
+// Global colors object for use in color functions
+let colors = { ...defaultColors };
 
 // Helper function to get color styles dynamically
 const getColorStyle = (colorName) => {
+  // Safe mapping of color names to values, with fallbacks
   const colorMap = {
-    'primary': colors.primary,
-    'secondary': colors.secondary,
-    'accent1': colors.accent1,
-    'accent2': colors.accent2,
-    'accent3': colors.accent3,
-    'accent4': colors.accent4,
+    // Dynamic theme colors
+    'primary': colors?.primary || 'blue',
+    'secondary': colors?.secondary || 'purple',
+    'accent1': colors?.accent1 || 'green',
+    'accent2': colors?.accent2 || 'red',
+    'accent3': colors?.accent3 || 'yellow',
+    'accent4': colors?.accent4 || 'orange',
+    // Static colors as fallback
     'blue': 'blue',
     'green': 'green',
     'purple': 'purple',
@@ -101,41 +106,80 @@ const getSkillIcon = (skill) => {
 };
 
 // Define skill categories and map to data from data.json
-const categories = [
-  {
-    title: 'Technical Skills',
-    icon: CodeBracketIcon,
-    color: colors.primary,
-    items: data.skills.technical,
-  },
-  {
-    title: 'Data Analysis',
-    icon: ChartBarIcon,
-    color: colors.secondary,
-    items: data.skills.dataAnalysis,
-  },
-  {
-    title: 'Other Skills',
-    icon: AcademicCapIcon,
-    color: colors.accent1,
-    items: data.skills.other,
+// Generate skill categories based on props or fallbacks
+const generateCategories = (skillsData) => {
+  // If no skills data is provided, return an empty array
+  if (!skillsData) return [];
+  
+  // Check for two different skills data formats (legacy and new format)
+  // For legacy format (languages, frameworks, databases, tools)
+  if (skillsData.languages) {
+    return [
+      {
+        title: 'Languages',
+        icon: CodeBracketIcon,
+        color: 'blue',
+        items: skillsData.languages || [],
+      },
+      {
+        title: 'Frameworks',
+        icon: ServerStackIcon,
+        color: 'purple',
+        items: skillsData.frameworks || [],
+      },
+      {
+        title: 'Databases',
+        icon: CubeIcon,
+        color: 'green',
+        items: skillsData.databases || [],
+      },
+      {
+        title: 'Tools',
+        icon: WrenchScrewdriverIcon,
+        color: 'yellow',
+        items: skillsData.tools || [],
+      }
+    ].filter(category => category.items && category.items.length > 0);
   }
-];
+  
+  // For new format (technical, dataAnalysis, other)
+  return [
+    {
+      title: 'Technical Skills',
+      icon: CodeBracketIcon,
+      color: 'blue',
+      items: skillsData.technical || [],
+    },
+    {
+      title: 'Data Analysis',
+      icon: ChartBarIcon,
+      color: 'purple',
+      items: skillsData.dataAnalysis || [],
+    },
+    {
+      title: 'Other Skills',
+      icon: AcademicCapIcon,
+      color: 'green',
+      items: skillsData.other || [],
+    }
+  ].filter(category => category.items && category.items.length > 0);
+};
 
 const fadeInUp = {
   hidden: { y: 30, opacity: 0 },
   visible: { y: 0, opacity: 1, transition: { duration: 0.6 } },
 };
 // Floating accent SVGs around Skills section using theme colors
+// Simplified floating SVGs with fixed colors
 const floatingSvgs = [
-  { icon: CodeBracketIcon, color: getColorClass(colors.primary, '500', 'text'), style: { top: '10%', left: '15%', width: 40, height: 40 }, delay: 0 },
-  { icon: CubeIcon, color: getColorClass(colors.accent2, '500', 'text'), style: { top: '30%', right: '5%', width: 40, height: 40 }, delay: 0.5 },
-  { icon: ChartBarIcon, color: getColorClass(colors.primary, '500', 'text'), style: { bottom: '50%', left: '5%', width: 40, height: 40 }, delay: 1 },
-  { icon: CpuChipIcon, color: getColorClass(colors.accent3, '500', 'text'), style: { bottom: '5%', right: '15%', width: 40, height: 40 }, delay: 1.5 },
-  { icon: CommandLineIcon, color: getColorClass(colors.secondary, '500', 'text'), style: { top: '20%', left: '35%', width: 40, height: 40 }, delay: 0.7 },
-  { icon: CloudIcon, color: getColorClass(colors.accent1, '500', 'text'), style: { top: '40%', right: '25%', width: 40, height: 40 }, delay: 1.2 },
-  { icon: WrenchScrewdriverIcon, color: getColorClass(colors.accent3, '500', 'text'), style: { bottom: '30%', left: '40%', width: 40, height: 40 }, delay: 0.3 },
-  { icon: LockClosedIcon, color: getColorClass(colors.accent4, '500', 'text'), style: { bottom: '20%', right: '30%', width: 40, height: 40 }, delay: 0.9 },
+  { icon: CodeBracketIcon, color: 'text-blue-500', style: { top: '10%', left: '15%', width: 40, height: 40 }, delay: 0 },
+  { icon: CubeIcon, color: 'text-red-500', style: { top: '30%', right: '5%', width: 40, height: 40 }, delay: 0.5 },
+  { icon: ChartBarIcon, color: 'text-blue-500', style: { bottom: '50%', left: '5%', width: 40, height: 40 }, delay: 1 },
+  { icon: CpuChipIcon, color: 'text-yellow-500', style: { bottom: '5%', right: '15%', width: 40, height: 40 }, delay: 1.5 },
+  { icon: CommandLineIcon, color: 'text-purple-500', style: { top: '20%', left: '35%', width: 40, height: 40 }, delay: 0.7 },
+  { icon: CloudIcon, color: 'text-green-500', style: { top: '40%', right: '25%', width: 40, height: 40 }, delay: 1.2 },
+  { icon: WrenchScrewdriverIcon, color: 'text-yellow-500', style: { bottom: '30%', left: '40%', width: 40, height: 40 }, delay: 0.3 },
+  { icon: LockClosedIcon, color: 'text-orange-500', style: { bottom: '20%', right: '30%', width: 40, height: 40 }, delay: 0.9 },
 ];
 // Microcode touches: floating < and > symbols
 // const microSvgs = [
@@ -145,7 +189,24 @@ const floatingSvgs = [
 //   { char: '>', style: { bottom: '10%', right: '20%', fontSize: '1rem' }, delay: 1.2 },
 // ];
 
-export default function Skills() {
+export default function Skills({ skills, colors: colorProps }) {
+  // Update global colors object with props or use defaults
+  React.useEffect(() => {
+    if (colorProps) {
+      colors = { ...defaultColors, ...colorProps };
+    } else {
+      colors = { ...defaultColors };
+    }
+  }, [colorProps]);
+
+  // Generate categories from provided props
+  const categories = generateCategories(skills);
+  
+  // If no categories, provide fallback
+  if (!categories || categories.length === 0) {
+    return null;
+  }
+  
   return (
   <section id="skills" className="relative bg-gradient-to-b from-white via-gray-50 to-white py-20 md:py-32 overflow-hidden">
       {/* Floating accent icons */}
@@ -170,9 +231,9 @@ export default function Skills() {
             </div>
           </motion.div>
         );
-      })}      {/* Background blobs */}
-      <div className={`absolute top-0 right-0 w-56 h-56 ${getColorClass(colors.accent1, '100')} rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000`} />
-      <div className={`absolute bottom-0 left-0 w-64 h-64 ${getColorClass(colors.primary, '100')} rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob`} />
+      })}      {/* Background blobs - using fixed colors instead of dynamic ones */}
+      <div className="absolute top-0 right-0 w-56 h-56 bg-green-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000" />
+      <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob" />
       {/* Micro floating code symbols
       {microSvgs.map((m, idx) => (
         <motion.div

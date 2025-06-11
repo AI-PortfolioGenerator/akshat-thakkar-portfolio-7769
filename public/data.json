@@ -1,12 +1,12 @@
 {
   "personalInfo": {
     "name": "Akshat Thakkar",
-    "title": "Software Developer | ML & Data Analyst | Full Stack Developer",
+    "title": "Software Developer | ML, Data Analyst | Full Stack Developer",
     "location": "Ahmedabad, Gujarat, India",
     "email": "thakkarakshat5428@gmail.com",
     "phone": "+91 9054498642",
     "github": "https://github.com/Akki5428",
-    "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
+    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
   },
   "siteConfig": {
     "hasHero": true,
@@ -26,23 +26,23 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "A passionate and skilled software developer proficient in full-stack development, machine learning, and data analysis.",
+    "subtitle": "A passionate and skilled Software Developer proficient in Machine Learning, Data Analysis, and Full Stack Development.",
     "faqs": [
       {
         "question": "What are my key skills?",
-        "answer": "I'm proficient in full-stack development using technologies like React.js, FastAPI, Java, Python, and databases such as MySQL and MongoDB.  My data analysis skills include using Python libraries (Pandas, Matplotlib, Seaborn) and tools like Power BI and Tableau. I also have experience in machine learning using scikit-learn.",
+        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools like Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
         "color": "#007bff",
         "icon": 0
       },
       {
-        "question": "What kind of projects have I worked on?",
-        "answer": "I've developed a state-city-wise news portal using the FARM stack, analyzed Lok Sabha election data to study voting trends, built a fake news detection model, and created an e-waste facility locator app.  I also have experience building CRUD applications.",
+        "question": "What's my experience?",
+        "answer": "I have experience as a Full Stack Developer Intern and Data Analyst Intern at Grownited Private Limited, where I developed and analyzed various projects using my technical skills.",
         "color": "#28a745",
         "icon": 1
       },
       {
-        "question": "What are my career goals?",
-        "answer": "I'm seeking a challenging role where I can leverage my skills in full-stack development, machine learning, and data analysis to contribute to innovative projects and solve real-world problems.",
+        "question": "What kind of projects have I worked on?",
+        "answer": "I have worked on projects involving Fake News Detection using Machine Learning, E-Waste Facility Locator, and a CRUD Application, showcasing my expertise in diverse areas of software development.",
         "color": "#dc3545",
         "icon": 2
       }
@@ -124,124 +124,56 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "A showcase of my skills and creativity.",
+    "subtitle": "A showcase of my latest projects",
     "items": [
       {
         "id": 1,
-        "title": "StateBuzz News Portal",
-        "description": "A state-city-wise news portal built using the FARM stack.",
-        "longDescription": "Developed a full-stack news portal using FastAPI, ReactJS, and MongoDB.  Included features like user authentication, role-based dashboards, news posting, comments, image uploads (Cloudinary), and email alerts.",
-        "tags": [
-          "Full Stack",
-          "FastAPI",
-          "ReactJS",
-          "MongoDB"
-        ],
+        "title": "Fake News Detection using Machine Learning",
+        "description": "Built an ML pipeline to classify news as fake or real using TF-IDF and Logistic Regression.",
         "technologies": [
-          "FastAPI",
-          "ReactJS",
-          "MongoDB",
-          "Cloudinary"
+          "Python",
+          "scikit-learn",
+          "TF-IDF",
+          "Gradio"
         ],
-        "iconType": "codeBracket",
-        "color": "#007bff"
+        "github": "#",
+        "demo": "#"
       },
       {
         "id": 2,
-        "title": "Lok Sabha Data Analysis",
-        "description": "Analysis of Lok Sabha election data (2004-2024).",
-        "longDescription": "Analyzed Lok Sabha data to study voting trends, turnout, and party performance.  Utilized Python libraries (Pandas, Matplotlib, Seaborn) for data preprocessing and visualization, and created interactive Power BI dashboards.",
-        "tags": [
-          "Data Analysis",
-          "Python",
-          "Power BI"
-        ],
+        "title": "E-Waste Facility Locator",
+        "description": "Developed a ReactJS application to help users find e-waste disposal facilities.",
         "technologies": [
-          "Python",
-          "Pandas",
-          "Matplotlib",
-          "Seaborn",
-          "Power BI"
+          "ReactJS",
+          "Google Maps"
         ],
-        "iconType": "chartBar",
-        "color": "#28a745"
+        "github": "#",
+        "demo": "#"
       },
       {
         "id": 3,
-        "title": "Fake News Detection",
-        "description": "Machine learning model for fake news detection.",
-        "longDescription": "Built an ML pipeline using TF-IDF vectorization and Logistic Regression to classify news as fake or real. Included text cleaning, stemming, NLP, and label preprocessing.  Created an interactive web app using Gradio for real-time predictions.",
-        "tags": [
-          "Machine Learning",
-          "Python",
-          "scikit-learn",
-          "TF-IDF",
-          "Gradio"
-        ],
-        "technologies": [
-          "Python",
-          "scikit-learn",
-          "TF-IDF",
-          "Gradio"
-        ],
-        "iconType": "cpuChip",
-        "color": "#dc3545"
-      },
-      {
-        "id": 4,
-        "title": "E-Waste Facility Locator",
-        "description": "ReactJS application to locate e-waste disposal facilities.",
-        "longDescription": "Developed a ReactJS application to help users find nearby e-waste disposal facilities. Integrated Google Maps links and included educational videos on proper e-waste disposal.",
-        "tags": [
-          "ReactJS",
-          "Google Maps"
-        ],
-        "technologies": [
-          "ReactJS",
-          "Google Maps"
-        ],
-        "iconType": "server",
-        "color": "#ffc107"
-      },
-      {
-        "id": 5,
         "title": "CRUD Application",
-        "description": "Java, JSP, and MySQL based CRUD application for student records.",
-        "longDescription": "Built a secure CRUD application using Java, JSP, and MySQL for managing student records.  Included features like registration and session-based logout.",
-        "tags": [
+        "description": "Built a secure CRUD system for managing student records using Java, JSP, and MySQL.",
+        "technologies": [
           "Java",
           "JSP",
           "MySQL"
         ],
-        "technologies": [
-          "Java",
-          "JSP",
-          "MySQL",
-          "JDBC"
-        ],
-        "iconType": "database",
-        "color": "#17a2b8"
+        "github": "#",
+        "demo": "#"
       }
     ]
   },
   "contact": {
     "title": "Contact Me",
-    "subtitle": "Let's connect and discuss your project!",
-    "info": {
-      "email": "thakkarakshat5428@gmail.com",
-      "phone": "+91 9054498642",
-      "linkedin": "https://linkedin.com/in/akshatkumar-thakkar",
-      "github": "https://github.com/Akki5428"
-    }
+    "subtitle": "Let's connect!",
+    "email": "thakkarakshat5428@gmail.com",
+    "phone": "+91 9054498642",
+    "github": "https://github.com/Akki5428",
+    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
   },
   "certifications": [
-    {
-      "name": "Oracle Cloud Infrastructure 2024 Generative AI Professional",
-      "issuer": "Oracle"
-    },
-    {
-      "name": "Core Java, Python",
-      "issuer": "Royal Technosoft - Oracle University"
-    }
+    "Oracle Cloud Infrastructure 2024 Generative AI Professional (By Oracle)",
+    "Core Java, Python (By Royal Technosoft - Oracle University)"
   ]
 }
