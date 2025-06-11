@@ -26,23 +26,23 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "A passionate software developer with expertise in Machine Learning, Data Analysis, and Full Stack Development.",
+    "subtitle": "A passionate and skilled software developer proficient in full-stack development, machine learning, and data analysis.",
     "faqs": [
       {
         "question": "What are my key skills?",
-        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools.  My expertise spans full-stack development, machine learning, and data analysis.",
+        "answer": "I'm proficient in full-stack development using technologies like React.js, FastAPI, Java, Python, and databases such as MySQL and MongoDB.  My data analysis skills include using Python libraries (Pandas, Matplotlib, Seaborn) and tools like Power BI and Tableau. I also have experience in machine learning using scikit-learn.",
         "color": "#007bff",
         "icon": 0
       },
       {
         "question": "What kind of projects have I worked on?",
-        "answer": "I've developed a state-city-wise news portal, analyzed Lok Sabha data to study voting trends, built a fake news detection system, and created an e-waste facility locator.",
+        "answer": "I've developed a state-city-wise news portal using the FARM stack, analyzed Lok Sabha election data to study voting trends, built a fake news detection model, and created an e-waste facility locator app.  I also have experience building CRUD applications.",
         "color": "#28a745",
         "icon": 1
       },
       {
-        "question": "What is my experience?",
-        "answer": "I've completed internships as a Full Stack Developer and Data Analyst at Grownited Private Limited, gaining hands-on experience in various technologies and methodologies.",
+        "question": "What are my career goals?",
+        "answer": "I'm seeking a challenging role where I can leverage my skills in full-stack development, machine learning, and data analysis to contribute to innovative projects and solve real-world problems.",
         "color": "#dc3545",
         "icon": 2
       }
@@ -124,40 +124,100 @@
   },
   "projects": {
     "title": "Projects",
-    "subtitle": "A showcase of my technical skills and creative problem-solving abilities",
+    "subtitle": "A showcase of my skills and creativity.",
     "items": [
       {
         "id": 1,
-        "title": "Fake News Detection using Machine Learning",
-        "description": "Built an ML pipeline to classify news as fake or real using TF-IDF vectorization and Logistic Regression.",
+        "title": "StateBuzz News Portal",
+        "description": "A state-city-wise news portal built using the FARM stack.",
+        "longDescription": "Developed a full-stack news portal using FastAPI, ReactJS, and MongoDB.  Included features like user authentication, role-based dashboards, news posting, comments, image uploads (Cloudinary), and email alerts.",
+        "tags": [
+          "Full Stack",
+          "FastAPI",
+          "ReactJS",
+          "MongoDB"
+        ],
+        "technologies": [
+          "FastAPI",
+          "ReactJS",
+          "MongoDB",
+          "Cloudinary"
+        ],
+        "iconType": "codeBracket",
+        "color": "#007bff"
+      },
+      {
+        "id": 2,
+        "title": "Lok Sabha Data Analysis",
+        "description": "Analysis of Lok Sabha election data (2004-2024).",
+        "longDescription": "Analyzed Lok Sabha data to study voting trends, turnout, and party performance.  Utilized Python libraries (Pandas, Matplotlib, Seaborn) for data preprocessing and visualization, and created interactive Power BI dashboards.",
+        "tags": [
+          "Data Analysis",
+          "Python",
+          "Power BI"
+        ],
+        "technologies": [
+          "Python",
+          "Pandas",
+          "Matplotlib",
+          "Seaborn",
+          "Power BI"
+        ],
+        "iconType": "chartBar",
+        "color": "#28a745"
+      },
+      {
+        "id": 3,
+        "title": "Fake News Detection",
+        "description": "Machine learning model for fake news detection.",
+        "longDescription": "Built an ML pipeline using TF-IDF vectorization and Logistic Regression to classify news as fake or real. Included text cleaning, stemming, NLP, and label preprocessing.  Created an interactive web app using Gradio for real-time predictions.",
+        "tags": [
+          "Machine Learning",
+          "Python",
+          "scikit-learn",
+          "TF-IDF",
+          "Gradio"
+        ],
         "technologies": [
           "Python",
           "scikit-learn",
           "TF-IDF",
           "Gradio"
         ],
-        "iconType": "rocket",
+        "iconType": "cpuChip",
         "color": "#dc3545"
       },
       {
-        "id": 2,
+        "id": 4,
         "title": "E-Waste Facility Locator",
-        "description": "Developed an application using React.js to help users find e-waste disposal facilities.",
+        "description": "ReactJS application to locate e-waste disposal facilities.",
+        "longDescription": "Developed a ReactJS application to help users find nearby e-waste disposal facilities. Integrated Google Maps links and included educational videos on proper e-waste disposal.",
+        "tags": [
+          "ReactJS",
+          "Google Maps"
+        ],
         "technologies": [
           "ReactJS",
           "Google Maps"
         ],
-        "iconType": "globe",
+        "iconType": "server",
         "color": "#ffc107"
       },
       {
-        "id": 3,
+        "id": 5,
         "title": "CRUD Application",
-        "description": "Built a secure CRUD system for managing student records using Java, JSP, and MySQL.",
-        "technologies": [
+        "description": "Java, JSP, and MySQL based CRUD application for student records.",
+        "longDescription": "Built a secure CRUD application using Java, JSP, and MySQL for managing student records.  Included features like registration and session-based logout.",
+        "tags": [
           "Java",
           "JSP",
           "MySQL"
+        ],
+        "technologies": [
+          "Java",
+          "JSP",
+          "MySQL",
+          "JDBC"
         ],
         "iconType": "database",
         "color": "#17a2b8"
@@ -167,11 +227,11 @@
   "contact": {
     "title": "Contact Me",
     "subtitle": "Let's connect and discuss your project!",
-    "email": "thakkarakshat5428@gmail.com",
-    "phone": "+91 9054498642",
-    "social": {
-      "github": "https://github.com/Akki5428",
-      "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
+    "info": {
+      "email": "thakkarakshat5428@gmail.com",
+      "phone": "+91 9054498642",
+      "linkedin": "https://linkedin.com/in/akshatkumar-thakkar",
+      "github": "https://github.com/Akki5428"
     }
   },
   "certifications": [
