@@ -6,7 +6,7 @@
     "email": "thakkarakshat5428@gmail.com",
     "phone": "+91 9054498642",
     "github": "https://github.com/Akki5428",
-    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
+    "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
   },
   "siteConfig": {
     "hasHero": true,
@@ -26,23 +26,23 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "A passionate and skilled software developer with expertise in machine learning, data analysis, and full-stack development.",
+    "subtitle": "A passionate software developer with expertise in Machine Learning, Data Analysis, and Full Stack Development.",
     "faqs": [
       {
         "question": "What are my key skills?",
-        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools like Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
+        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools.  My expertise spans full-stack development, machine learning, and data analysis.",
         "color": "#007bff",
         "icon": 0
       },
       {
         "question": "What kind of projects have I worked on?",
-        "answer": "My projects include building a state-wise news portal using FARM stack, analyzing Lok Sabha data to study voting trends, creating a fake news detection system using machine learning, and developing an e-waste facility locator.",
+        "answer": "I've developed a state-city-wise news portal, analyzed Lok Sabha data to study voting trends, built a fake news detection system, and created an e-waste facility locator.",
         "color": "#28a745",
         "icon": 1
       },
       {
         "question": "What is my experience?",
-        "answer": "I've worked as a Full Stack Developer Intern and Data Analyst Intern at Grownited Private Limited, gaining hands-on experience in various technologies and methodologies.",
+        "answer": "I've completed internships as a Full Stack Developer and Data Analyst at Grownited Private Limited, gaining hands-on experience in various technologies and methodologies.",
         "color": "#dc3545",
         "icon": 2
       }
@@ -128,63 +128,60 @@
     "items": [
       {
         "id": 1,
-        "title": "StateBuzz",
-        "description": "A state-city-wise news portal built using the FARM stack (FastAPI, ReactJS, MongoDB).",
-        "technologies": [
-          "FastAPI",
-          "ReactJS",
-          "MongoDB",
-          "Cloudinary"
-        ],
-        "iconType": "globe",
-        "color": "#007bff"
-      },
-      {
-        "id": 2,
-        "title": "Fake News Detection",
-        "description": "An ML pipeline using TF-IDF vectorization and Logistic Regression to classify news as fake or real.",
+        "title": "Fake News Detection using Machine Learning",
+        "description": "Built an ML pipeline to classify news as fake or real using TF-IDF vectorization and Logistic Regression.",
         "technologies": [
           "Python",
           "scikit-learn",
           "TF-IDF",
           "Gradio"
         ],
-        "iconType": "robot",
-        "color": "#28a745"
+        "iconType": "rocket",
+        "color": "#dc3545"
       },
       {
-        "id": 3,
+        "id": 2,
         "title": "E-Waste Facility Locator",
-        "description": "An application to help users find e-waste disposal facilities using ReactJS and Google Maps.",
+        "description": "Developed an application using React.js to help users find e-waste disposal facilities.",
         "technologies": [
           "ReactJS",
           "Google Maps"
         ],
-        "iconType": "recycle",
-        "color": "#dc3545"
+        "iconType": "globe",
+        "color": "#ffc107"
       },
       {
-        "id": 4,
+        "id": 3,
         "title": "CRUD Application",
-        "description": "A secure CRUD system for managing student records using Java, JSP, and MySQL.",
+        "description": "Built a secure CRUD system for managing student records using Java, JSP, and MySQL.",
         "technologies": [
           "Java",
           "JSP",
           "MySQL"
         ],
         "iconType": "database",
-        "color": "#ffc107"
+        "color": "#17a2b8"
       }
     ]
   },
   "contact": {
     "title": "Contact Me",
     "subtitle": "Let's connect and discuss your project!",
-    "info": {
-      "email": "thakkarakshat5428@gmail.com",
-      "phone": "+91 9054498642",
+    "email": "thakkarakshat5428@gmail.com",
+    "phone": "+91 9054498642",
+    "social": {
       "github": "https://github.com/Akki5428",
-      "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
+      "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
     }
-  }
+  },
+  "certifications": [
+    {
+      "name": "Oracle Cloud Infrastructure 2024 Generative AI Professional",
+      "issuer": "Oracle"
+    },
+    {
+      "name": "Core Java, Python",
+      "issuer": "Royal Technosoft - Oracle University"
+    }
+  ]
 }
