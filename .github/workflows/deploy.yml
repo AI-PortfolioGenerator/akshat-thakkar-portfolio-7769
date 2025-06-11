@@ -42,6 +42,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
+      - name: Add cache headers for data.json
+        run: |
+          echo '# Cache control for data.json - prevent caching' > ./dist/_headers
+          echo '/data.json' >> ./dist/_headers
+          echo '  Cache-Control: no-cache, no-store, must-revalidate' >> ./dist/_headers
+          echo '  Pragma: no-cache' >> ./dist/_headers
+          echo '  Expires: 0' >> ./dist/_headers
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
