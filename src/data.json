@@ -6,7 +6,7 @@
     "email": "thakkarakshat5428@gmail.com",
     "phone": "+91 9054498642",
     "github": "https://github.com/Akki5428",
-    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
+    "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
   },
   "siteConfig": {
     "hasHero": true,
@@ -26,23 +26,23 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "A passionate and skilled software developer with expertise in Machine Learning, Data Analysis, and Full Stack Development.",
+    "subtitle": "A passionate software developer with expertise in machine learning, data analysis, and full-stack development.",
     "faqs": [
       {
         "question": "What are my key skills?",
-        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
+        "answer": "I'm proficient in Java, Python, SQL, C, HTML, CSS, JavaScript, React.js, FastAPI, MySQL, MongoDB, and various developer tools like Git, Google Colab, VS Code, Eclipse, Tableau, and Power BI.",
         "color": "#007bff",
         "icon": 0
       },
       {
         "question": "What kind of projects have I worked on?",
-        "answer": "I've built full-stack applications, performed data analysis on large datasets, and developed machine learning models for various tasks. My projects showcase my ability to handle diverse challenges and deliver high-quality solutions.",
+        "answer": "I've developed a state-city-wise news portal using the FARM stack, analyzed Lok Sabha data to study voting trends, built a fake news detection system using machine learning, and created an e-waste facility locator.",
         "color": "#28a745",
         "icon": 1
       },
       {
         "question": "What is my experience?",
-        "answer": "I've gained valuable experience as a Full Stack Developer and Data Analyst Intern at Grownited Private Limited, where I worked on real-world projects and collaborated with experienced professionals.",
+        "answer": "I've completed internships as a Full Stack Developer and Data Analyst at Grownited Private Limited, gaining hands-on experience in various technologies and methodologies.",
         "color": "#dc3545",
         "icon": 2
       }
@@ -126,29 +126,29 @@
     "items": [
       {
         "title": "Fake News Detection using Machine Learning",
-        "description": "Built an ML pipeline to classify news as fake or real.",
+        "description": "Built an ML pipeline using TF-IDF vectorization and Logistic Regression to classify news as fake or real.",
         "technologies": [
           "Python",
           "scikit-learn",
           "TF-IDF",
           "Gradio"
         ],
-        "iconType": "rocket",
+        "iconType": "brain",
         "color": "#dc3545"
       },
       {
         "title": "E-Waste Facility Locator",
-        "description": "ReactJS application to help users find e-waste disposal facilities.",
+        "description": "Developed an application using React.js to help users find e-waste disposal facilities.",
         "technologies": [
           "ReactJS",
           "Google Maps"
         ],
-        "iconType": "mapMarker",
+        "iconType": "recycle",
         "color": "#ffc107"
       },
       {
         "title": "CRUD Application",
-        "description": "Secure CRUD system for managing student records using Java, JSP, and MySQL.",
+        "description": "Built a secure CRUD system for managing student records with registration and session-based logout.",
         "technologies": [
           "Java",
           "JSP",
@@ -156,8 +156,28 @@
         ],
         "iconType": "database",
         "color": "#17a2b8"
+      },
+      {
+        "title": "StateBuzz",
+        "description": "A state-city-wise news portal developed using the FARM stack.",
+        "technologies": [
+          "FastAPI",
+          "ReactJS",
+          "MongoDB",
+          "Cloudinary"
+        ],
+        "iconType": "newspaper",
+        "color": "#007bff"
       }
     ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Let's connect and discuss your project!",
+    "email": "thakkarakshat5428@gmail.com",
+    "phone": "+91 9054498642",
+    "github": "https://github.com/Akki5428",
+    "linkedin": "https://linkedin.com/in/akshatkumar-thakkar"
   },
   "certifications": [
     {
@@ -168,13 +188,5 @@
       "name": "Core Java, Python",
       "issuer": "Royal Technosoft - Oracle University"
     }
-  ],
-  "contact": {
-    "title": "Contact Me",
-    "subtitle": "Let's connect!",
-    "email": "thakkarakshat5428@gmail.com",
-    "phone": "+91 9054498642",
-    "github": "https://github.com/Akki5428",
-    "linkedin": "https://www.linkedin.com/in/akshatkumar-thakkar"
-  }
+  ]
 }

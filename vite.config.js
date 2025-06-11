@@ -5,6 +5,7 @@ import fs from 'fs-extra'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: './', // Base path for GitHub Pages deployment
   plugins: [
     react(),
     // Custom plugin to ensure data.json is copied to the build output
